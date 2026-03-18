@@ -24,7 +24,9 @@ export default function CharacterGallery({ onSelectBrawler }) {
               className={`filter-btn ${filter === rarity ? 'active' : ''}`}
               onClick={() => setFilter(rarity)}
             >
-              {rarity === 'all' ? 'All Brawlers' : rarity.charAt(0).toUpperCase() + rarity.slice(1)}
+              {rarity === 'all'
+                ? 'All Brawlers'
+                : rarity.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
             </button>
           ))}
         </div>
