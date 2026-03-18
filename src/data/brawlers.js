@@ -8,22 +8,22 @@ export const BRAWLERS = [
     attack: 280,
     speed: 7,
     range: 8,
-    description: 'A tough fighter with a powerful shotgun. Great for close combat.',
-    mainAttack: 'Fires a wide spread of pellets in front of her.',
-    super: 'Jumps back, crushing enemies nearby with a shockwave.'
+    description: 'Shelly is a versatile brawler with a powerful shotgun. She excels at close range.',
+    mainAttack: 'Fires a wide spread of pellets that deal more damage the closer she is.',
+    super: 'Super Shell: A massive blast that destroys cover and pushes back enemies.'
   },
   {
     id: 2,
     name: 'Colt',
     emoji: '🤠',
     rarity: 'common',
-    health: 900,
+    health: 2800,
     attack: 360,
     speed: 9,
     range: 10,
-    description: 'A quick gunslinger with precise shots and high speed.',
-    mainAttack: 'Shoots up to 6 bullets in rapid succession.',
-    super: 'Shoots all his ammo around him in a circular pattern.'
+    description: 'Colt is a long-range specialist who fires high-velocity bullets.',
+    mainAttack: 'Shoots a long burst of bullets from his dual revolvers.',
+    super: 'Bullet Storm: An even longer burst that can shred through walls and enemies.'
   },
   {
     id: 3,
@@ -47,9 +47,9 @@ export const BRAWLERS = [
     attack: 320,
     speed: 8,
     range: 4,
-    description: 'A heavy hitter with massive damage up close.',
-    mainAttack: 'Charges forward and shoots at point-blank range.',
-    super: 'Charges forward at incredible speed, destroying obstacles.'
+    description: 'Bull deals massive damage up close and has high health to withstand enemy fire.',
+    mainAttack: 'Double-Barrel: A short-range blast from his shotgun.',
+    super: 'Bulldozer: Bull charges forward, smashing through anything in his path.'
   },
   {
     id: 5,
@@ -73,9 +73,9 @@ export const BRAWLERS = [
     attack: 400,
     speed: 7,
     range: 12,
-    description: 'Launches explosive rockets with devastating range.',
-    mainAttack: 'Shoots explosive rockets over long distances.',
-    super: 'Fires a massive rocket that deals huge damage on impact.'
+    description: 'Brock fires long-range rockets that deal explosive area damage.',
+    mainAttack: 'Rockin\' Rocket: Launches a single long-range explosive rocket.',
+    super: 'Rocket Rain: Brock unleashes a barrage of rockets on a targeted area.'
   },
   {
     id: 7,
@@ -151,9 +151,9 @@ export const BRAWLERS = [
     attack: 300,
     speed: 9,
     range: 8,
-    description: 'Goes invisible and deals increased damage with devastating speed.',
-    mainAttack: 'Fires fast projectiles while invisible.',
-    super: 'Becomes invisible and moves faster than ever.'
+    description: 'Leon is a stealthy assassin who can sneak up on enemies using invisibility.',
+    mainAttack: 'Spinner Blades: Leon throws four spinning blades in an arc.',
+    super: 'Smoke Bomb: Leon becomes invisible for a short period of time.'
   },
   {
     id: 13,
